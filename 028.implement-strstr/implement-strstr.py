@@ -11,7 +11,7 @@ class Solution(object):
             else:
                 return -1
                 
-        for i in xrange(0, len(haystack)):
+        for i in range(0, len(haystack)):
             k = i
             j = 0
             while j < len(needle) and k < len(haystack) and haystack[k] == needle[j]:
